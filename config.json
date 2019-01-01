@@ -1,0 +1,22 @@
+[
+	{
+		"name": "BBC Radio 1",
+		"lang": "en",
+		"url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p"
+	},
+	{
+		"name": "BBC Radio 2",
+		"lang": "en",
+		"url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p"
+	},
+	{
+		"name": "Yorkshire Coast Radio",
+		"lang": "en",
+		"url": "http://str1.sad.ukrd.com/yorkshirecoast.m3u"
+	},
+	{
+		"name": "France Musique Classique plus",
+		"lang": "fr",
+		"url": "http://www.listenlive.eu/fr_francemusiqueplus.m3u"
+	}	
+]
