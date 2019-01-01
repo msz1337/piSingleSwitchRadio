@@ -52,7 +52,7 @@ if __name__ == '__main__':
                 espeak_process.kill()
             if mpv_process:
                 mpv_process.kill()
-            with open('/home/pi/Desktop/config.json', 'r') as config_file:
+            with open('piSingleSwithRadio.json', 'r') as config_file:
                 radio_arr = json.loads(config_file.read())
             radio_index += 1
             if radio_index > len(radio_arr)-1:
