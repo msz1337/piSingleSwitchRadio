@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import os
 import subprocess
 import time
 import threading
@@ -40,6 +41,7 @@ class ButtonThread(threading.Thread):
 
 
 if __name__ == '__main__':
+    config_file_path = os.path.join(os.path.dirname(__file__), 'piSingleSwithRadio.json')
     radio_index = -1
     espeak_process = False
     mpv_process = False
@@ -52,7 +54,7 @@ if __name__ == '__main__':
                 espeak_process.kill()
             if mpv_process:
                 mpv_process.kill()
-            with open('piSingleSwithRadio.json', 'r') as config_file:
+            with open(config_file_path, 'r') as config_file:
                 radio_arr = json.loads(config_file.read())
             radio_index += 1
             if radio_index > len(radio_arr)-1:
