@@ -1,12 +1,18 @@
 # piSingleSwitchRadio
+
+...is a simple script that transforms your Raspberry Pi into an Internet radio receiver controllable just with one switch connected to GPIO pins. **If you have reset/power switch from old computer case lying around, it could be one of the easiest Pi projects utilizing GPIO pins!** 
+
+- It fetches your favourite Internet radio stations list from JSON file,
+- short click of the switch - turn on/change station,
+- it reads radio station name with speak synthesizer,
+- long press of the switch (more than 1 sec) - turn off.
+
 Ingredients:
 - **Raspberry Pi** (developed and tested on Pi 1 B+ model, should work flawlessly on the newer models),
 - **Hi-Fi set** or boombox or whatever that could play music,
 - **switch** (eg. from an old PC case),
 - **cable** to connect RPi and Hi-Fi set,
-- **piSingleSwithRadio.py** and **piSingleSwithRadio.json** files (preferable in your home directory - mostly /home/pi).
-
-##### It could be one of the easiest projects using GPIO pin!
+- **piSingleSwithRadio.py** and **piSingleSwithRadio.json** files somewhere in your home directory (most cases /home/pi).
 
 ## Let's do some tinkering...
 
@@ -23,8 +29,8 @@ asdasdasdasd
 asdasdasdasdasd
 
 ## Configuring environment
-Following script runs **only on Raspberry Pi**. It also requires *mpv* and *espeak* packages. Install it by following commands:
+Following script runs **only on Raspberry Pi**. It also requires *mpv* and *espeak* packages. Install it by following console commands:
 ```sh
-$ sudo apt install mpv
-$ sudo apt install espeak
+sudo apt install mpv
+sudo apt install espeak
 ```
