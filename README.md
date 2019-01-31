@@ -86,6 +86,7 @@ It's basicly json array of objects. One object represents a radio station.
 - **url**: URL of the radio stream
 
 **Where to find radio statnions?**
+
 Personaly I use [www.listenlive.eu](http://www.listenlive.eu). Not every link is working, so I recommend to test radio URL before adding it to the config file.
 
 ## Using piSingleSwitchRadio
