@@ -95,4 +95,5 @@ If everything is up and running:
 - **short switch press** - speech synthesizer reads first radio station name, then radio starts playing (in Raspberry Pi 1 it could be slight delay for buffering),
 - **next short switch press** - speech synthesizer reads next radio station name and next radio station starts playing,
 - **long switch press** - radio turns off (long press - more than 1 second)
+
 Thats all!
