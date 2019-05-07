@@ -49,11 +49,8 @@ Now you can launch piSingleSwithRadio manualy by:
 ```sh
 $ ~/piSingleSwithRadio.py
 ```
-Or add following commands to your startup scripts
-```sh
-pkill radio #POPRAWIĆ
-~/piSingleSwithRadio.py
-```
+Or add above command to your startup scripts (for example /etc/rc.local)
+
 ### 3. Configure radio stations
 Configuration file looks like this:
 ```json
