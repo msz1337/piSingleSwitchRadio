@@ -49,7 +49,11 @@ Now you can launch piSingleSwithRadio manualy by:
 ```sh
 $ ~/piSingleSwithRadio.py
 ```
-Or add above command to your startup scripts (for example /etc/rc.local).
+or add: 
+```sh
+/home/pi/piSingleSwithRadio.py
+```
+to your startup scripts (for example /etc/rc.local before "exit 0" line).
 
 ### 3. Configure radio stations
 Configuration file looks like this:
